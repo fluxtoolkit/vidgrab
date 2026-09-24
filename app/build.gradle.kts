@@ -15,19 +15,9 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        // ── Chaquopy: ABI filters + Python config ───────────
+        // ── Chaquopy: ABI filters ───────────────────────────
         ndk {
             abiFilters += listOf("arm64-v8a", "x86_64")
-        }
-
-        python {
-            version = "3.10"
-
-            buildPython("/usr/bin/python3")    // uses system Python 3.10
-
-            pip {
-                install("yt-dlp")
-            }
         }
         // ────────────────────────────────────────────────────
     }
@@ -53,6 +43,18 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        version = "3.10"
+
+        buildPython("/usr/bin/python3")
+
+        pip {
+            install("yt-dlp")
+        }
     }
 }
 
