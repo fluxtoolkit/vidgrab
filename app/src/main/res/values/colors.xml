@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#FF6750A4</color>
+
+    <!-- You can customize these or let Material 3 auto-generate from the seed -->
+    <color name="colorPrimary">#FF6750A4</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryContainer">#FFEADDFF</color>
+    <color name="colorOnPrimaryContainer">#FF21005D</color>
+    <color name="colorSecondary">#FF625B71</color>
+    <color name="colorOnSecondary">#FFFFFFFF</color>
+    <color name="colorSurface">#FFFFFBFE</color>
+    <color name="colorOnSurface">#FF1C1B1F</color>
+    <color name="colorOnSurfaceVariant">#FF49454F</color>
+</resources>

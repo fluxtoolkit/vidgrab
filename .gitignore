@@ -1,0 +1,21 @@
+# Built outputs
+/build/
+*.apk
+*.aab
+*.ap_
+
+# IDE
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Chaquopy build cache
+**/chaquopy/
+
+# Native libraries (downloaded automatically during CI workflow)
+app/src/main/jniLibs/**/*.so
